@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paulo Fernando De Barros | Strategic Analyst & Editor</title>
-    <link rel="stylesheet" href="style.css"> 
-    <style>
+    <link rel="stylesheet" href="style.css"> <style>
         :root { --primary: #2c3e50; --accent: #3498db; --text: #333; --highlight: #f0f7ff; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--text); margin: 0; padding: 0; }
         header { background: var(--primary); color: white; padding: 2rem 1rem; text-align: center; }
         .container { max-width: 900px; margin: auto; padding: 2rem; }
+        h1 { margin: 0; font-size: 2.5rem; }
+        .headline { font-size: 1.2rem; color: #bdc3c7; margin-top: 0.5rem; }
         .section { margin-bottom: 3rem; }
-        .project-box { background: var(--highlight); padding: 1.5rem; border: 1px solid #d1e9ff; border-radius: 8px; margin: 2rem 0; }
         .btn-group { display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap; }
         .btn { padding: 0.8rem 1.5rem; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.3s; }
         .btn-primary { background: var(--accent); color: white; }
         .btn-secondary { background: #ecf0f1; color: var(--primary); border: 1px solid #bdc3c7; }
         .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
         .skill-item { background: #f9f9f9; padding: 1rem; border-left: 4px solid var(--accent); }
+        .project-box { background: var(--highlight); padding: 1.5rem; border: 1px solid #d1e9ff; border-radius: 8px; margin-top: 2rem; border-left: 5px solid var(--accent); }
         mark { background-color: yellow; color: black; }
     </style>
 </head>
@@ -28,50 +29,84 @@
     <div class="headline">Managing Editor | Strategic Operations Analyst | Data-Driven Journalist | Public Policy & Management</div>
     <div class="btn-group">
         <a href="https://www.linkedin.com/in/paulofernandodebarros" class="btn btn-primary">LinkedIn</a> <mark>&#91;cite: 3, 4&#93;</mark>
-        <a href="https://borealtimes.org/author/debarrospaulo/" class="btn btn-secondary">Boreal Author Profile</a> 
-        <a href="https://github.com/paulofbarros/safeload-analytics-norway" class="btn btn-secondary">GitHub</a> <mark>&#91;cite: 6&#93;</mark>
+        <a href="https://borealtimes.org/author/debarrospaulo/" class="btn btn-secondary">Boreal Author Profile</a> <a href="https://github.com/paulofbarros/safeload-analytics-norway" class="btn btn-secondary">GitHub Project</a> <mark>&#91;cite: 6&#93;</mark>
+        <a href="https://paulofernandodebarros.substack.com/" class="btn btn-secondary">Substack</a>
+        <a href="https://www.amazon.com/stores/author/B0BWVT3BKN?ingress=0&visitId=73d31896-fd7a-4e2c-8881-c5c6f689710a&ref_=aufs_ap_ahdr_dsk_aa" class="btn btn-secondary">Amazon Author</a>
     </div>
 </header>
 
 <div class="container">
-    <section class="section">
+   <section class="section">
         <h2>About</h2>
-        <p>Results-driven professional and Freelance Journalist with over 30 years of international experience across Norway, Spain, and Brazil, specializing in the intersection of Public Management, Strategic Analysis, and Data Intelligence <mark>&#91;cite: 13, 14, 15, 80&#93;</mark>.</p>
-        <p>Currently, as Founder and Managing Editor of <a href="https://borealtimes.org/author/debarrospaulo/">Boreal Times</a>, I combine my investigative expertise with <strong>Python-based data science</strong> to translate complex geopolitical shifts and commodity trends into actionable narratives for global business leaders <mark>&#91;cite: 16, 17, 20, 21, 74&#93;</mark>. My journalistic work is focused on transparency and high-impact communication, skills I now bridge with Public Policy Management (Enap) to drive innovation in the public sector <mark>&#91;cite: 22, 76, 77&#93;</mark>.</p>
-        <p>My career was built on managing high-stakes operations for industry giants such as <strong>Scania, Volvo, and Ford</strong>, where I mastered Just-in-Time (JIT) efficiency and supply chain integrity. This background, combined with a <strong>Certified IQ of 117</strong>, enables me to solve complex administrative problems <mark>&#91;cite: 88, 89, 90, 93&#93;</mark>.</p>
-    </section>
+        <p>
+            Results-driven professional and Freelance Journalist with over 30 years of international experience across Norway, Spain, and Brazil, specializing in the intersection of Public Management, Strategic Analysis, and Data Intelligence<mark>&#91;cite: 13, 14, 15, 80&#93;</mark>.
+        </p>
+        <p>
+            Currently, as Founder and Managing Editor of <a href="https://borealtimes.org/author/debarrospaulo/" style="color: var(--accent); text-decoration: none; font-weight: bold;">Boreal Times</a>, I combine my investigative expertise with <strong>Python-based data science</strong> to translate complex geopolitical shifts and commodity trends into actionable narratives for global business leaders<mark>&#91;cite: 16, 17, 20, 21, 74&#93;</mark>. My journalistic work is focused on transparency and high-impact communication, skills I now bridge with Public Policy Management (Enap) to drive innovation in the public sector<mark>&#91;cite: 22, 76, 77&#93;</mark>.
+        </p>
+        <p>
+            My career was built on managing high-stakes operations for industry giants such as <strong>Scania, Volvo, and Ford</strong>, where I mastered Just-in-Time (JIT) efficiency and supply chain integrity. This operational background, combined with a <strong>Certified IQ of 117</strong>, enables me to solve complex administrative problems with both technical precision and cognitive agility<mark>&#91;cite: 88, 89, 90, 93&#93;</mark>.
+        </p>
 
-    <div class="project-box">
-        <h3>🚀 Featured Project: SAFE-LOAD ANALYTICS</h3>
-        <p><strong>Advanced Algorithmic Risk Intelligence for the Norwegian Transport Sector.</strong></p>
-        <p>Developed to mitigate occupational injuries in Norwegian logistics, this proprietary algorithm calculates real-time ergonomic risk based on variable surfaces (Snow, Mud, Gravel) and human fatigue factors. Integrated with <strong>YSK (Statens vegvesen)</strong> standards.</p>
-        <a href="https://github.com/paulofbarros/safeload-analytics-norway" style="color:var(--accent); font-weight:bold; text-decoration:none;">→ View Full Technical Framework on GitHub</a>
-    </div>
+        <div class="project-box">
+            <h3 style="margin-top:0;">🚀 Featured Project: SAFE-LOAD ANALYTICS</h3>
+            <p><strong>Advanced Algorithmic Risk Intelligence for the Norwegian Transport Sector.</strong></p>
+            <p>Developed to mitigate occupational injuries in Norwegian logistics, this proprietary algorithm calculates real-time ergonomic risk based on variable surfaces (Snow, Mud, Gravel) and human fatigue factors. Aimed at integration with <strong>YSK (Statens vegvesen)</strong> standards.</p>
+            <a href="https://github.com/paulofbarros/safeload-analytics-norway" style="color:var(--accent); font-weight:bold; text-decoration:none;">→ View Methodology on GitHub</a>
+        </div>
+    </section>
 
     <section class="section">
         <h2>Core Expertise</h2>
         <div class="skills-grid">
-            <div class="skill-item"><strong>Editorial Leadership</strong><br>Investigative writing and strategic communication <mark>&#91;cite: 20, 22&#93;</mark>.</div>
-            <div class="skill-item"><strong>Data Intelligence</strong><br>Python for automation and market analysis <mark>&#91;cite: 8, 21, 74&#93;</mark>.</div>
-            <div class="skill-item"><strong>Public Governance</strong><br>Certified expertise in public policy management <mark>&#91;cite: 76, 79, 80&#93;</mark>.</div>
-            <div class="skill-item"><strong>Strategic Operations</strong><br>Supply chain integrity for Scania, Volvo, and Ford <mark>&#91;cite: 26, 43&#93;</mark>.</div>
+            <div class="skill-item">
+                <strong>Editorial Leadership</strong><br>
+                Investigative writing and high-impact strategic communication<mark>&#91;cite: 20, 22&#93;</mark>.
+            </div>
+            <div class="skill-item">
+                <strong>Data Intelligence</strong><br>
+                Python for automation, database management, and market analysis<mark>&#91;cite: 8, 21, 74&#93;</mark>.
+            </div>
+            <div class="skill-item">
+                <strong>Public Governance</strong><br>
+                Certified expertise in innovation and public policy management<mark>&#91;cite: 76, 79, 80&#93;</mark>.
+            </div>
+            <div class="skill-item">
+                <strong>Strategic Operations</strong><br>
+                Global logistics and supply chain integrity for Scania, Volvo, and Ford<mark>&#91;cite: 26, 43&#93;</mark>.
+            </div>
         </div>
+    </section>
+
+    <section class="section">
+        <h2>Languages</h2>
+        <p>
+            <strong>Native/Bilingual:</strong> Portuguese, Spanish<mark>&#91;cite: 10&#93;</mark>.<br>
+            <strong>Professional Working:</strong> English, Norwegian, Italian<mark>&#91;cite: 10&#93;</mark>.
+        </p>
     </section>
 
     <section class="section">
         <h2>Recent Achievements</h2>
         <ul>
-            <li>Founder & Managing Editor at <strong>The Boreal Times</strong> <mark>&#91;cite: 16, 17&#93;</mark>.</li>
-            <li>Public Policy & Management Specialization - <strong>Enap</strong> <mark>&#91;cite: 75, 76&#93;</mark>.</li>
-            <li>Advanced Programming in <strong>Python</strong> for Public Administration <mark>&#91;cite: 74&#93;</mark>.</li>
-            <li>Project Management Foundations - <strong>BI Norwegian Business School</strong> <mark>&#91;cite: 71, 72&#93;</mark>.</li>
-            <li>Certified Cognitive Performance Assessment - <strong>IQ Score: 117</strong> <mark>&#91;cite: 85, 88, 89, 93&#93;</mark>.</li>
+            <li>Founder & Managing Editor at <strong>The Boreal Times</strong><mark>&#91;cite: 16, 17&#93;</mark>.</li>
+            <li>Public Policy & Management Specialization - <strong>Enap</strong><mark>&#91;cite: 75, 76&#93;</mark>.</li>
+            <li>Advanced Programming in <strong>Python</strong> for Public Administration<mark>&#91;cite: 74&#93;</mark>.</li>
+            <li>Project Management Foundations - <strong>BI Norwegian Business School</strong><mark>&#91;cite: 71, 72&#93;</mark>.</li>
+            <li>Certified Cognitive Performance Assessment - <strong>IQ Score: 117</strong><mark>&#91;cite: 85, 88, 89, 93&#93;</mark>.</li>
             <li><strong>Developer:</strong> SAFE-LOAD ANALYTICS (2026 Edition).</li>
         </ul>
     </section>
 </div>
 
 <footer style="text-align: center; padding: 3rem 1rem; background: #eee;">
+    <div style="margin-bottom: 1.5rem;">
+        <p><strong>Connect with my editorial work:</strong></p>
+        <a href="https://x.com/paulofdbarros" style="margin: 0 10px; text-decoration: none; color: #555;">X (Twitter)</a> |
+        <a href="https://www.youtube.com/@dunapressPT/videos" style="margin: 0 10px; text-decoration: none; color: #555;">YouTube</a> |
+        <a href="https://www.instagram.com/borealtimes" style="margin: 0 10px; text-decoration: none; color: #555;">Instagram</a> |
+        <a href="https://www.facebook.com/paulofdbarros" style="margin: 0 10px; text-decoration: none; color: #555;">Facebook</a>
+    </div>
     <p>© 2026 Paulo Fernando De Barros | Larvik, Norway <mark>&#91;cite: 13, 14, 25&#93;</mark></p>
 </footer>
 
